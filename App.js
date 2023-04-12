@@ -8,7 +8,6 @@ import Mahasiswa from './Components/1121101985_MahasiswaScreen'
 import Akademik from './Components/1121101985_AkademikScreen'
 import Biodata from './Components/1121101985_BiodataScreen'
 import Nilai from './Components/1121101985_NIlaiScreen'
-import Coba from './Components/coba';
 
 export default function App() {
   const nav = createStackNavigator()
@@ -22,8 +21,5 @@ export default function App() {
         <nav.Screen name='Nilai' component={Nilai}/>
       </nav.Navigator>
     </NavigationContainer>
-        // <>
-        // <Coba/>
-        // </>
   );
 }
